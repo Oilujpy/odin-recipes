@@ -40,8 +40,6 @@
 
 .recipe-img {
     border-radius: 24px;
-
-    display: inline-block;
 }
 
 .header {
@@ -50,15 +48,37 @@
     padding: 8px;
 }
 
+
 .description {
     background-color: #970747;
     border-radius: 8px;
     padding: 8px;
-    margin: 8px auto;
+    margin-bottom: 24px;
     text-align: left;
 }
 
 .ingridients-list,
 .steps-list {
     text-align: left;
+    margin-bottom: 24px;
+}
+
+.list-item-ingridient,
+.list-item-step{
+    padding: 2px;
+    background-color: #ffffff;
+    color: black;
+    margin: 12px auto;
+    border-radius: 8px;
+    list-style-type: none;
+}
+
+.home-link {
+    background-color: #970747;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    display: inline-block;
 }
