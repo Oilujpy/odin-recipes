@@ -7,13 +7,14 @@
 }
 
 .content {
-    background-color: lightblue;
-    max-width: 400px;
+    color: white;
+    max-width: 700px;
     margin: 16px auto;
+    text-align: center;
 }
 
 .content-title {
-    background-color: white;
+    background-color: #970747;
     padding: 8px;
     margin-bottom: 16px;
     font-size: 52px;
@@ -22,12 +23,42 @@
 }
 
 .list {
-    padding: 6px;
+    background-color: #970747;
+    padding: 18px;
     font-size: 18px;
+    border-radius: 12px;
+    text-align: center;
 }
 
 .list-item{
     background-color: white;
-    padding: 6px;
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 8px;
+    display: inline-block;
+}
+
+.recipe-img {
+    border-radius: 24px;
+
+    display: inline-block;
+}
+
+.header {
+    color: black;
+    text-align: left;
+    padding: 8px;
+}
+
+.description {
+    background-color: #970747;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px auto;
+    text-align: left;
+}
+
+.ingridients-list,
+.steps-list {
+    text-align: left;
 }
